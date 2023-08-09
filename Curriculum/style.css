@@ -1,0 +1,165 @@
+/* 8DA0F7
+8597EA
+7788D1
+616FAB
+3D456B
+292828
+*/
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+link{
+    width: 5rem;
+    height: 3rem;
+}
+
+.inicio {
+    text-align: center;
+    padding: 2rem;
+}
+
+.foto img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.contenido-seccion {
+    padding: 2rem;
+}
+
+.inicio .contenido-seccion {
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    scroll-behavior: smooth;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+
+}
+body{
+    background-color: #3D456B;
+    font-family:'Segoe UI';
+    margin: 0;
+}
+header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    width: 80vw;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+ul li a:hover{
+    background-color: #292828;
+    border-radius: 3rem;
+}
+
+.lista{
+    list-style-type: none;
+}
+
+ul{
+    background: #7788D1;
+    border-radius: 5rem;
+    padding: 0%;
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-right: 1rem;
+    flex-wrap: wrap;
+}
+
+
+ul a{
+    list-style: none;
+    display: inline-grid;
+    padding: 1.3rem 0rem;
+    margin: 1rem 0rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #292828;
+    cursor: pointer;
+    z-index: 2;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+
+.sobremi {
+    float: left;
+    width: 50vw,
+}
+.sobremi img{
+justify-content: center;
+width: 50rem;
+}
+.contacto{
+    display: flex;
+    float: right;
+    width: 50%;
+}
+.foto {
+    float: right;
+    width: 50%; 
+    text-align: right;
+}
+img{
+    border:solid gray;
+    border-radius: 10px;
+}
+h2{
+    color: #292828;
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+    color: #616FAB ;
+}
+h4{
+    color: #7788D1;
+    font-size: 2rem;
+    
+}
+p{
+    color: #c0c6e4;
+    font-size: 1.5rem;
+}
+footer{
+    background-color:#c0c6e4 ;
+}
+.redes_sociales a {
+font-size: 1rem;
+}
+#redes a{
+    font-size:2rem ;
+}
+
+.contenido-seccion  {
+    font-size: 1.4rem;
+}
+link{
+    font-size: 3rem;
+}
+span{
+    font-size: 1.4rem;
+}

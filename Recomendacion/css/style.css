@@ -1,0 +1,196 @@
+html{
+    font-family: Arial, sans-serif;
+    font-size: 62.5%;
+}
+p{
+    font-size: 2.4rem;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 3rem ;
+}
+a{
+    font-size: 3.8;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6bb39b;
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #85e6c0;
+    padding: 1.5rem;
+}
+nav a {
+    color: #0b0b0d; 
+    text-decoration: none; 
+    margin: 6rem;
+}
+nav ul li {
+    margin: 0.3rem;
+}
+nav ul li a{
+    font-size: 2rem;
+}
+
+section {
+    padding: 6rem;
+    background-color: #daf3ea;
+}
+
+.recomendacion {
+    border: 0.3rem solid grey;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido {
+    display: flex;
+}
+
+.texto {
+    flex: 1;
+}
+
+.imagen-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 3rem;
+}
+
+.recomendacion img {
+    width: 30rem;
+    height: auto;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+form {
+    background-color: #f7f4e8;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 0.3rem solid #0b0b0d;
+}
+
+label {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    border: 0.3rem solid #ddd;
+    border-radius: 1.2rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 1.5rem;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.opciones-container {
+    border: 0.3rem solid #ddd;
+    padding: 3rem;
+    border-radius: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.opcion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.footer {
+    background-color: #85e6c0;
+    padding: 6rem;
+}
+
+.contenido_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto_footer {
+    margin: 0;
+}
+
+.redes_sociales {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.icono {
+    width: 9rem;
+    height: 9rem;
+}
+.boton {
+    display: inline-block;
+    padding: 3rem 4.5rem;
+    background-color: #0b0b0d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1.2rem;
+    font-weight: bold;
+}
+.centrar-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton:hover {
+    background-color: grey;
+}
+.pagina{
+    text-align: center;
+    background-color: #daf3ea;
+}
+.pagina a{
+    font-size: 2rem;
+}
+form label{
+    font-size: 1.5rem
+}
